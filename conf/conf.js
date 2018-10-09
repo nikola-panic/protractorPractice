@@ -6,7 +6,7 @@ exports.config = {
     allScriptsTimeout: 999999999,
     getPageTimeout: 999999999,
     // e2e tests location
-    specs: ['../test/testskout01_spec.js'],
+    specs: ['../dummyTest/'],
     capabilities: {
         'browserName': 'chrome',
         'chromeOptions': {
